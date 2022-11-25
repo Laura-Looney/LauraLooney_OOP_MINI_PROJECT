@@ -7,6 +7,30 @@ import java.awt.event.ActionListener;
 import java.util.HashMap;
 import java.util.Map;
 
+/*****************************************************
+ *Title: Java Hash Map - w3schools
+ * Author: w3schools
+ * Site owner/sponsor: w3schools.com
+ * Availability: https://www.w3schools.com/java/java_hashmap.asp
+ * Modified: From string answers to integers as snakes/ladders
+ *****************************************************/
+
+/*****************************************************
+ Title: HashMap in Java with Examples - geeksforgeeks
+ * Author: geeksforgeeks
+ * Site owner/sponsor: geeksforgeeks.org
+ * Availability: https://www.geeksforgeeks.org/java-util-hashmap-in-java-with-examples/
+ * Modified: From string answers to integers as snakes/ladders
+ *****************************************************/
+
+/*****************************************************
+ *Title: Snake and Ladder Problem - wgeeksforgeeks
+ * Author: geeksforgeeks
+ * Site owner/sponsor: geeksforgeeks.org
+ * Availability: https://www.geeksforgeeks.org/snake-ladder-problem-2/
+ * Modified: Snakes and Ladders Problem example
+ *****************************************************/
+
 public class SNL
     {
         public static void main(String[] args)
@@ -17,6 +41,7 @@ public class SNL
 
         public SNL()
             {
+
                 JOptionPane.showMessageDialog(null, "What is Sneks & Ladders?" +
                                 "\n~~~~~~~~~~~~~~~~\n" +
                                 "Players roll a die and navigate the board. \nLanding on a ladder advances a player to \na square " +
@@ -78,6 +103,7 @@ public class SNL
                     static Map<Integer, Integer> snake = new HashMap<Integer, Integer>();
                     static Map<Integer, Integer> ladder = new HashMap<Integer, Integer>();
                         {
+                            //hello
                             snake.put(99, 54);
                             snake.put(70, 55);
                             snake.put(52, 42);
@@ -89,23 +115,6 @@ public class SNL
                             ladder.put(60, 85);
                             ladder.put(46, 90);
                             ladder.put(17, 69);
-
-                            /*****************************************************
-                             *Title: Java Hash Map - w3schools
-                             * Author: w3schools
-                             * Site owner/sponsor: w3schools.com
-                             * Availability: https://www.w3schools.com/java/java_hashmap.asp
-                             * Modified: From string answers to integers as snakes/ladders
-                             *****************************************************/
-
-                            /*****************************************************
-                             Title: HashMap in Java with Examples - geeksforgeeks
-                             * Author: geeksforgeeks
-                             * Site owner/sponsor: geeksforgeeks.org
-                             * Availability: https://www.geeksforgeeks.org/java-util-hashmap-in-java-with-examples/
-                             * Modified: From string answers to integers as snakes/ladders
-                             *****************************************************/
-
                         }
 
 
