@@ -78,6 +78,7 @@ public class SNL
                     static Map<Integer, Integer> snake = new HashMap<Integer, Integer>();
                     static Map<Integer, Integer> ladder = new HashMap<Integer, Integer>();
                         {
+                            //hello
                             snake.put(99, 54);
                             snake.put(70, 55);
                             snake.put(52, 42);
